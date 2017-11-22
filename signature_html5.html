@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Email Signature</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'TruenoRegular', Verdana, sans-serif;
+            size: 1em;
+            color: #686868;
+        }
+
+        h1 {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #f48744;
+        }
+
+        h2 {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #686868;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        li:before {
+            display: inline-block;
+            width: 14px;
+            text-align: center;
+            font-family: 'FontAwesome';
+            margin: 0 5px 0 -15px;
+            color: #f48744;
+        }
+
+        li.phone:before {
+            content: '\f095';
+        }
+
+        li.mobile:before {
+            content: '\f10b';
+        }
+
+        li.email:before {
+            content: '\f003';
+        }
+
+        li.mail:before {
+            content: '\f041';
+        }
+
+        li.web:before {
+            content: '\f245';
+        }
+
+        div {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .sig-right {
+            border-left: 1px #cccccc solid;
+            padding-left: 30px;
+        }
+
+        .logo {
+            width: 250px;
+            margin-bottom: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sig-block sig-left">
+        <img src="assets/logo-final.png" class="logo" alt="Strategic Spaces">
+    </div>
+    <div class="sig-block sig-right">
+        <h1>David Cvitkovich</h1>
+        <h2>Principal</h2>
+        <ul>
+            <li class="phone">617.340.6178</li>
+            <li class="mobile">401.480.8523</li>
+            <li class="email">david@strategicspaces.com</li>
+            <li class="mail">280 Summer St. Boston, MA 02210</li>
+            <li class="web">www.strategicspaces.com</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
