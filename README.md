@@ -9,10 +9,12 @@
 
 ### Colors
 
-Pantone colors
+#### Colors
 
-* Orange: 157 C, #FF5E00
-* Grey: Cool Grey 10 C, #796E65
+* Pantone Orange 157 C, Hex #FF5E00
+* Pantone Grey: Cool Grey 10 C, Hex #796E65
+
+#### Font
  
-The font is called Montserrat and can be downloaded in various weights here: https://fonts.google.com/specimen/Montserrat
- 
+* Montserrat - can be downloaded in various weights here: https://fonts.google.com/specimen/Montserrat
+
